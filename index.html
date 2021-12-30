@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+  <div class="container">
+    <div id="Jeremy" class="box box-1">
+      <div class="box__profile">
+        <div class="img-container">
+          <img class="box__img--jeremy" src="images/image-jeremy.png" alt="jeremy">
+        </div>
+        <h1 class="box__head"><p class="box__head--report">Report for</p> 
+          Jeremy Robson</h1>
+      </div>
+      <div class="box__buttons">
+        <div id="buttons" class="buttons">
+          <button class="button" id="daily">Daily</button>  
+          <button class="button" id="weekly">Weekly</button>  
+          <button class="button" id="monthly">Monthly</button>  
+        </div>
+      </div>
+    </div>
+    
+    <div class="box box-2">
+      <div class="box__img-container">
+        <img class="box__img-container--image" src="images/icon-work.svg" alt="">
+      </div>
+        <div class="content">
+          <div class="box__header">
+            <h2 class="box__header--heading">Work</h2>  
+            <p class="box__header--dot">...</p>  
+          </div>
+          <div class="box__hours">
+            <p id="work"  class="box__hours--current"></p>
+            <p id="previous-work" class="box__hours--previous"></p>
+          </div>
+        </div>
+         
+        
+        
+      
+      
+    </div>  
+      
+  
+    
+    <div  class="box box-3">
+      <div class="box__img-container">
+        <img class="box__img-container--image" src="images/icon-play.svg" alt="">
+      </div>
+      <div class="content">
+        <div class="box__header">
+          <h2 class="box__header--heading">Play</h2>  
+          <p class="box__header--dot">...</p>  
+        </div>
+        <div class="box__hours">
+          <p id="play" class="box__hours--current"></p>
+          <p id="previous-play" class="box__hours--previous"></p>
+        </div>
+      </div>  
+      </div>
+      
+  
+    <div  class="box box-4">
+      <div class="box__img-container">
+        <img class="box__img-container--image" src="images/icon-study.svg" alt="">
+      </div>
+      <div class="content">
+        <div class="box__header">
+          <h2 class="box__header--heading">Study</h2>  
+          <p class="box__header--dot">...</p>  
+        </div>
+        <div class="box__hours">
+          <p id="study" class="box__hours--current"></p>
+          <p id="previous-study" class="box__hours--previous"></p>
+        </div>
+      </div>   
+      </div>
+     
+    
+    <div  class="box box-5">
+      <div class="box__img-container">
+        <img class="box__img-container--image" src="images/icon-exercise.svg" alt="">
+      </div>
+      <div class="content">
+        <div class="box__header">
+          <h2 class="box__header--heading">Exercise</h2>  
+          <p class="box__header--dot">...</p>  
+        </div>
+        <div class="box__hours">
+          <p id="exercise" class="box__hours--current"></p>
+          <p id="previous-exercise" class="box__hours--previous"></p>
+        </div>
+      </div> 
+      </div>
+       
+      
+ 
+    
+    <div  class="box box-6">
+      <div class="box__img-container">
+        <img class="box__img-container--image" src="images/icon-social.svg" alt="">
+      </div>
+      <div class="content">
+        <div class="box__header">
+          <h2 class="box__header--heading">Social</h2>  
+          <p class="box__header--dot">...</p>  
+        </div>
+        <div class="box__hours">
+          <p id="social" class="box__hours--current"></p>
+          <p id="previous-social" class="box__hours--previous"></p>
+        </div>
+      </div>  
+      </div>
+     
+     
+    <div  class="box box-7">
+      <div class="box__img-container">
+        <img class="box__img-container--image" src="images/icon-self-care.svg" alt="">
+      </div>
+      <div class="content">
+        <div class="box__header">
+          <h2 class="box__header--heading">Self Care</h2>  
+          <p class="box__header--dot">...</p>  
+        </div>
+        <div class="box__hours">
+          <p id="self-care" class="box__hours--current"></p>
+          <p id="previous-self-care" class="box__hours--previous"></p>
+        </div>
+      </div>  
+      </div>
+      
+      
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Matthew Van Pelt</a>.
+  </div>
+  </main>
+  
+
+  
+
+  
+
+ 
+
+  
+
+ 
+
+  
+
+  
+  
+</body>
+<script src="app.js"></script>
+</html>
